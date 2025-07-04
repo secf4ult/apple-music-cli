@@ -1,6 +1,6 @@
 # apple-music-cli
 
-A simple shell scripts to expose Apple Music capacity through osascrip
+A simple shell script to expose Apple Music capacity through osascrip
 
 ## Usage
 
