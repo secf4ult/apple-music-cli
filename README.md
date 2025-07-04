@@ -7,6 +7,6 @@ A simple shell scripts to expose Apple Music capacity through osascrip
 amc [func]
 
 func:
-- pla
+- play
 - pause
 - p: toggle between play or pause
