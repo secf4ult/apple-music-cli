@@ -17,7 +17,13 @@ toggle_play() {
   status=$(osascript -e 'tell application "Music" to player state')
 
   if [ $status = 'stopped' ];then
-    osascript -e 'tell application "Music" to play'
+    osascript -e '
+    tell application "Music"
+        activate
+        set shuffle enabled to true
+        play playlist "Favorite Songs"
+    end tell
+    '
   else
     osascript -e 'tell application "Music" to playpause'
   fi
